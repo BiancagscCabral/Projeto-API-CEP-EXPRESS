@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+
+/*estilo para corpo da pág*/
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+h1 .fas {
+    margin-right: 10px; 
+    color: red;     
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+    background-color: #FCD800; /*cinza claro*/
+    margin: 0;
+    display: flex; /*centralizando*/
+    justify-content: center; /*horizontal*/
+    align-items: center; /*vertical*/
+    min-height: 100vh; /* altura mínima 100%*/
+    padding: 20px; 
+}
+/*card*/
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px; /* arrendodadinho */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* sombra */
+    width: 100%;
+    max-width: 500px; /*não passar de 500px*/
+    text-align: center;
+}
+
+.serach-box {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#cepInput {
+    flex-grow: 1;
+    padding: 10px;
+    border: 2px solid #000000;
+    border-radius: 4px;
+}
+
+#searchBtn {
+    padding: 10px 15px;
+    background-color: #000000;
+    color: white;
+    margin-top: 6px;
+    border: 2px solid #010101;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#searchBtn:hover {
+    background-color: #61d942;
+    color: #000000;
+}
+
+#result {
+    text-align: left;
+    margin-top: 20px;
+    display: none; /*vai ficar escondido (só aparece quando der resultado*/
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+    margin-top: 15px;
+    display: none; /*só aparece quando dar error*/
+}
+
