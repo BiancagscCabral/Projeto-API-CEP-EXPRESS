@@ -10,11 +10,7 @@ const cidadeEl = document.getElementById('cidade');
 const estadoEl = document.getElementById('estado');
 
 
-//variaveis do mapa
-const mapContainer = document.getElementById('mapContainer');
-const mapFrame = document.getElementById('mapFrame');
-
-
+//pra exibir o resultado
 function exibirResultado(dados) {
     
     ruaEl.textContent = dados.street;
@@ -23,12 +19,13 @@ function exibirResultado(dados) {
     estadoEl.textContent = dados.state;
 
 
-
+// para ficar visivel
     resultBox.style.display = 'block';
     errorMessage.style.display = 'none';
 }
 
 
+//função de exibir erro se digitar errado
 function exibirErro(mensagem) {
    
     errorMessage.textContent = mensagem;
@@ -59,7 +56,7 @@ async function consultarCep() {
         exibirResultado(data);
 
     } catch (error) {
-        // ERRO
+        // erro msg
         exibirErro(error.menssage);
     }
 }
