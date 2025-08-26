@@ -31,18 +31,4 @@ O projeto foi construído utilizando as seguintes tecnologias:
 Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 
-## 🚀 Como Executar o Projeto
 
-Para executar o projeto localmente, siga os passos abaixo:
-
-1.  Clone este repositório:
-    ```bash
-    git clone [https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO.git](https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO.git)
-    ```
-2.  Navegue até o diretório do projeto:
-    ```bash
-    cd NOME-DO-REPOSITORIO
-    ```
-3.  Abra o arquivo `index.html` no seu navegador de preferência.
-
-E pronto! A aplicação estará funcionando.
