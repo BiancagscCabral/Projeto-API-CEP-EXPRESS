@@ -26,9 +26,7 @@ O projeto foi construído utilizando as seguintes tecnologias:
 -   **Font Awesome:** Para a inclusão de ícones.
 -   **BrasilAPI:** Como fonte de dados para a consulta dos CEPs.
   
-  ## 📄 Licença
 
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 
 
